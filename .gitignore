@@ -138,4 +138,4 @@ dmypy.json
 cython_debug/
 
 # Data
-bgm_anime_data.json
+bgm_anime_dataset.json
