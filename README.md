@@ -16,9 +16,9 @@ Bangumi 动画数据集。
 
 ![效果图 动画 1分—10分 评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure_1_10.png)
 
-将上一张图放大：
+将上一张图放大：（结论：10 分评分数到一定程度后 1 分评分数就会按比例增长）
 
-![效果图 动画 1分—10分 评分分布 放大](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure1_10_Zoom.png)
+![效果图 动画 1分—10分 评分分布 放大](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure_1_10_Zoom.png)
 
 ## 下载并预处理数据集
 
