@@ -14,13 +14,8 @@ counts = np.array(
 )
 counts = np.array([counts[:,i].sum() for i in range(10)], dtype=np.int)
 
-print(counts)
-
 total = counts.sum()
 mean = sum(counts[i] * (i+1) for i in range(10)) / total
-
-for i in range(10):
-    print('%2d %d' % (i + 1, counts[i]))
 
 rc('font', family='FZZhunYuan-M02', size=14)
 
@@ -37,10 +32,10 @@ ax.annotate(
 ax.grid(True, axis='y')
 ax.set_xticks(np.arange(0, 10 + 0.1, 1, dtype=np.int))
 ax.set_xlabel('评分')
-ax.set_yticks(np.arange(0, 2000001, 100000, dtype=np.int))
+ax.set_yticks(np.arange(0, 2000000, 300000, dtype=np.int))
 ax.set_yticklabels(['0'] + list(map(
     lambda n: f'{n//10000:d}w',
-    np.arange(0, 2000001, 100000, dtype=np.int)[1:]
+    np.arange(0, 2000000, 300000, dtype=np.int)[1:]
 )))
 ax.set_ylabel('评分数')
 ax.set_title(f'Bangumi 动画单次评分分布    总计{total}次评分')
