@@ -18,7 +18,7 @@ async def main():
     client = ClientSession(headers={
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) '
         'Gecko/20100101 Firefox/90.0'
-    }, connector=TCPConnector(limit=35))
+    }, connector=TCPConnector(limit=15))
 
     finished_tasks = deque()
     raw_data = deque()
