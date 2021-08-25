@@ -2,7 +2,8 @@
 
 Bangumi 动画数据集。
 
-![效果图](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
+![效果图 动画评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
+![效果图 动画单次评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
 
 下载并预处理好的数据集可从 [Release 页面](https://github.com/NKID00/BangumiAnimeDataset/releases) 下载。
 
@@ -37,7 +38,8 @@ pip install -U numpy matplotlib
 运行程序：
 
 ```sh
-$ python ./plot.py
+$ python ./plot.py  # 动画评分分布
+$ python ./plot_scores.py  # 动画单次评分分布
 ```
 
 ## 数据结构
