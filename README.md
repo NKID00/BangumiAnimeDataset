@@ -3,7 +3,7 @@
 Bangumi 动画数据集。
 
 ![效果图 动画评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
-![效果图 动画单次评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
+![效果图 动画单次评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/FigureScores.png)
 
 下载并预处理好的数据集可从 [Release 页面](https://github.com/NKID00/BangumiAnimeDataset/releases) 下载。
 
