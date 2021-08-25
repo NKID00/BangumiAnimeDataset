@@ -2,6 +2,8 @@
 
 Bangumi 动画数据集。
 
+![效果图](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
+
 下载并预处理好的数据集可从 [Release 页面](https://github.com/NKID00/BangumiAnimeDataset/releases) 下载。
 
 ## 手动下载并预处理数据集
