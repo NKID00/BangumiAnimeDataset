@@ -6,23 +6,35 @@ Bangumi 动画数据集。
 
 下载并预处理好的数据集可从 [Release 页面](https://github.com/NKID00/BangumiAnimeDataset/releases) 下载。
 
-## 手动下载并预处理数据集
+## 下载并预处理数据集
 
-1. 安装依赖：
+需要 `python>=3.6`。
 
-   ```sh
-   pip install -U aiohttp
-   ```
+安装依赖：
 
-2. 下载并预处理数据集：
+```sh
+pip install -U aiohttp
+```
 
-   ```sh
-   $ python ./download_preprocess.py
-   ```
+运行程序：
 
-   数据存储在 `bgm_anime_dataset.json` 里。
+```sh
+$ python ./download_preprocess.py
+```
+
+数据存储在 `bgm_anime_dataset.json` 里。
 
 ## 绘制图表
+
+需要 `python>=3.6`。
+
+安装依赖：
+
+```sh
+pip install -U numpy matplotlib
+```
+
+运行程序：
 
 ```sh
 $ python ./plot.py
