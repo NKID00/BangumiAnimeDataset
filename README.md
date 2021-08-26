@@ -4,6 +4,8 @@ Bangumi 动画数据集。
 
 ## 效果图
 
+数据下载于北京时间 2021-8-25 约 1:00-6:00。
+
 所有动画的评分：
 
 ![效果图 动画评分分布](https://github.com/NKID00/BangumiAnimeDataset/raw/main/Figure.png)
