@@ -3,7 +3,7 @@ from json import load
 
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib import rc
+from matplotlib import rc, font_manager
 
 with open('bgm_anime_dataset.json', 'r', encoding='utf8') as f:
     data = load(f)
@@ -18,7 +18,7 @@ counts_10 = np.array(
     dtype=np.int
 )
 
-rc('font', family='FZZhunYuan-M02', size=14)
+rc('font', family='Sarasa Gothic SC', size=14)
 
 fig, ax = plt.subplots()
 ax.scatter(counts_10, counts_1, c='#fca2ae')

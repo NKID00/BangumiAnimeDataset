@@ -12,12 +12,12 @@ counts = np.array(
     [[bangumi['rating']['count'][str(i)] for i in range(1, 10+1)] for bangumi in data],
     dtype=np.int
 )
-counts = np.array([counts[:,i].sum() for i in range(10)], dtype=np.int)
+counts = np.array([counts[:, i].sum() for i in range(10)], dtype=np.int)
 
 total = counts.sum()
 mean = sum(counts[i] * (i+1) for i in range(10)) / total
 
-rc('font', family='FZZhunYuan-M02', size=14)
+rc('font', family='Sarasa Gothic SC', size=14)
 
 fig, ax = plt.subplots()
 for i, c in zip(range(10), cycle(('#fca2ae', '#f6c2d0'))):

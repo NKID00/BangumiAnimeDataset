@@ -25,7 +25,7 @@ hist = np.vstack((bins[:-1] + 0.05, n))
 for i in range(hist.shape[1]):
     print('%.1f %3d' % (hist[0, i], hist[1, i]))
 
-rc('font', family='FZZhunYuan-M02', size=14)
+rc('font', family='Sarasa Gothic SC', size=14)
 
 fig, ax = plt.subplots()
 for i, c in zip(range(20), cycle(('#fca2ae', '#f6c2d0'))):
